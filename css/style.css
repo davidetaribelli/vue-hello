@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #222;
+}
+
+.border{
+    border: 1px solid white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.textWhite{
+    color: white;
+}
+
+img{ 
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    margin-top: 1rem;
+}
